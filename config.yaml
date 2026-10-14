@@ -1,0 +1,19 @@
+name: Xiaomi Cloud Tokens Extractor
+version: "0.2.0"
+slug: xiaomi_cloud_tokens_extractor
+description: Run the community Xiaomi Cloud Tokens Extractor in a browser terminal inside Home Assistant.
+url: https://github.com/PiotrMachowski/Xiaomi-cloud-tokens-extractor
+arch:
+  - amd64
+  - aarch64
+  - armv7
+startup: application
+boot: manual
+init: false
+ingress: true
+ingress_port: 7681
+panel_icon: mdi:key-chain
+panel_title: Xiaomi Tokens
+map: []
+options: {}
+schema: {}
