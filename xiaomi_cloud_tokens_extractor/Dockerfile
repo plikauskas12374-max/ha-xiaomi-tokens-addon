@@ -1,5 +1,4 @@
 FROM ghcr.io/home-assistant/base:latest
-FROM ${BUILD_FROM}
 RUN apk add --no-cache python3 py3-pip py3-virtualenv git ttyd bash
 WORKDIR /opt
 RUN git clone --depth 1 https://github.com/PiotrMachowski/Xiaomi-cloud-tokens-extractor.git /opt/upstream
